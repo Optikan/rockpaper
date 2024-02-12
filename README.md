@@ -2,6 +2,8 @@
 
 Welcome to the Rock Paper Scissors with YOLO project! This project allows you to play the classic game of Rock Paper Scissors against your computer using your laptop's camera.
 
+![Rock Paper Scissors](61QkvmvEdVL.png)
+
 ## Overview
 
 This project utilizes the YOLO (You Only Look Once) object detection model to detect the hand gestures of Rock, Paper, and Scissors in real-time. The YOLO model has been fine-tuned on a custom dataset containing images of various hand gestures representing Rock, Paper, and Scissors.
