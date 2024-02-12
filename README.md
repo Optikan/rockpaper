@@ -1,42 +1,55 @@
-Project guide lines and instructions
-```markdown
-# Project Title
-## Project Description
-## Project Structure
-## Project Installation
-## Project Usage
-## Project Contributing
-## Project License
-```
-```markdown
+# Rock Paper Scissors with YOLO
 
-- Project Title
-This project is a guide to train a yolov8 model with a custom dataset and dockerize the model
+Welcome to the Rock Paper Scissors with YOLO project! This project allows you to play the classic game of Rock Paper Scissors against your computer using your laptop's camera.
 
-- Project Description
-The project is a guide to train a yolov8 model with a custom dataset and dockerize the model. The project is divided into two parts. The first part is to train the yolov8 model with a custom dataset and the second part is to dockerize the model. 
+## Overview
 
-- Project Structure
-Step 1 : Find a dataset compatible with yolov8 format and download it ✅
-Step 2 : Explore the dataset and understand the structure of the dataset ✅
-Step 3 : Use a k-validation method to split the dataset into training and testing ✅
-Step 4 : Fine-tune the yolov8 model with the cross validation method the dataset
-Step 5 : Fine-tune the model with hyperparameter tuning
-Step 6 : Test the model with the testing dataset
-Step 7 : Evaluate the model with the testing dataset
-Step 8 : Save the model and the weights
+This project utilizes the YOLO (You Only Look Once) object detection model to detect the hand gestures of Rock, Paper, and Scissors in real-time. The YOLO model has been fine-tuned on a custom dataset containing images of various hand gestures representing Rock, Paper, and Scissors.
 
-- Dockerize the model
-Step 9 : Create a docker image with the model and the weights
-Step 10 : Create a docker container with the docker image
-Step 11 : Test the docker container with a new image
-Step 12 : Evaluate the docker container with the new image
-Step 13 : Save the docker container
+## Features
 
+- Real-time hand gesture detection using your laptop's camera.
+- Computer opponent to play against.
+- Simple and intuitive interface.
 
-This final goal of this project is to be able to play rock paper scissors against the computer by detecting the hand gesture of the player through a webcam.
+## Installation
 
+To get started with the Rock Paper Scissors game, follow these steps:
 
+1. Clone this repository to your local machine:
 
+    ```bash
+    git clone https://github.com/your-username/rock-paper-scissors-yolo.git
+    ```
 
+2. Install the required dependencies:
 
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+1. Run the main script:
+
+    ```bash
+    python main.py
+    ```
+
+2. Follow the on-screen instructions to play the game. Make sure your laptop's camera is enabled and properly positioned.
+
+3. Make your hand gestures to choose between Rock, Paper, or Scissors. The computer will also make its selection.
+
+4. The winner of each round will be displayed on the screen, and the game will continue until you choose to quit.
+
+## Customization
+
+Feel free to customize the game according to your preferences. You can modify the YOLO model architecture, fine-tune it on a different dataset, or enhance the game interface.
+
+## Credits
+
+This project was inspired by the idea of combining computer vision techniques with classic games. Special thanks to the developers of YOLO for providing an excellent object detection framework.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
