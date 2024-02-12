@@ -2,7 +2,7 @@
 
 Welcome to the Rock Paper Scissors with YOLO project! This project allows you to play the classic game of Rock Paper Scissors against your computer using your laptop's camera.
 
-![Rock Paper Scissors](61QkvmvEdVL.png)
+![Rock Paper Scissors](images/61QkvmvEdVL.png)
 
 ## Overview
 
