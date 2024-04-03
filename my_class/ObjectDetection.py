@@ -41,7 +41,8 @@ class ObjectDetection:
         self.capture_index = capture_index
 
         # model information
-        self.model = YOLO("models/best.pt")
+        # self.model = YOLO("models/best.pt")
+        self.model = YOLO("models/best.onnx")
 
         # visual information
         self.annotator = None

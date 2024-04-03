@@ -159,6 +159,7 @@ class Yolov8SubDataset(Dataset):
     def __getitem__(self, idx):
         img_name = os.path.join(self.image_dir, self.images[idx])
         label_name = os.path.join(self.labels_dir, self.labels[idx])
+        print(img_name)
 
         # Load image
         image = Image.open(img_name)
